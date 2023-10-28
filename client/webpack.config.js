@@ -16,7 +16,7 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: './src/index.html',
+        template: './index.html',
         title: 'Text Editor',
       }),
       new InjectManifest({
@@ -29,8 +29,8 @@ module.exports = () => {
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E',
         description: 'A PWA text editor',
-        background_color: '#abdbe3',
-        theme_color: '#abdbe3',
+        background_color: '#616161',
+        theme_color: '#616161',
         start_url: './',
         publicPath: './',
         icons: [
